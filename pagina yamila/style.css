@@ -1,0 +1,199 @@
+.header {
+    background:#9c6644;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+.nav {
+    display: flex;
+}
+.header__ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.cabezera1, .cabezera2, .cabezera3, .cabezera4, .cabezera5 {
+    font-weight: bold;
+    color: #4f000b;
+    margin: 1rem;
+    position: sticky;
+    list-style: none;
+    text-decoration: none;
+    top: 0px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.cabezera1:hover, .cabezera2:hover, .cabezera3:hover, .cabezera4:hover, .cabezera5:hover {
+    color:  white;
+}
+.titulo {
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 3rem; 
+    animation: vino 2s;
+}
+.carousel__img {
+    height: 90vh;
+}
+.descripcion__caras{
+    display: flex;
+    justify-content: space-evenly;
+}
+.descripcion__img{
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes vino{
+   0% {
+    background-color: #4f000b;
+    font-size: medium;
+
+   }
+   25% {
+    background-color: bisque;
+    
+   }
+   50% {
+    background-color:  whitesmoke;
+     
+   }
+   100% {
+    background-color: white;
+    
+   }
+   
+}
+.subtitulo {
+    background:#9c6644 ;
+    color:#4f000b (18, 18, 19);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+.imgcontrol{
+    height: 50rem;
+    width: 100%;
+    
+}
+.formulario{
+    display: flex;
+    background:#9c6644 ;
+    justify-content: center;
+    padding: 2rem 0 .5rem;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    width: 24.1rem;
+}
+.textarea{
+    width: 24.1rem;
+}
+.form__btn {
+    width: 10rem;
+}
+.footer{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0;
+    color: azure;
+    font-family: cursive;
+    
+}
+.footer__p {
+    font-weight: bold;
+}
+
+.Logo {
+   width: 50px;
+   height: 50px;
+   position: relative;
+   right: 40px;
+   bottom: -3px;
+   border-radius: 50px;
+   transition: width 1s;
+}
+
+.Logo:hover {
+    width: 100px;
+    cursor: pointer;
+}
+
+.Lore {
+    background-image: url(mario-la-pergola-gLdILBiyqH8-unsplash.jpg);
+    background-repeat: repeat;
+    color: azure;
+}
+
+.loreh1 {
+    color:#1c1c1c(58, 53, 28);
+    font-family: monospace;
+    font-size: 90px;
+    animation: Loree 1s ease infinite;
+    text-align: center;     
+}
+ @keyframes Loree {
+    0% {
+        font-family: fantasy;
+
+    }
+    25% {
+        font-family: sans-serif;
+    }
+    50% {
+        font-family: serif;
+        color: rgb(161, 87, 87);
+        
+    }
+    100% {
+        font-family: serif;
+        color: rgb(58, 53, 28);
+    }
+ }
+ .Vinooooo {
+    width: 100px;   
+ }
+ .holaa {
+    text-align: center;
+    color: white;
+    font-size: 25px;   
+ }
+.Loreee {
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    color:black (116, 69, 69);
+}
+.Boton-Comprar {
+    color: black;
+    border-radius: 10px;
+    transition: all ease 300ms;
+}
+.Boton-Comprar:hover {
+    background-color:#4b9c44 ;
+    color: white;
+    width: 100px;
+    
+}
+.Fotos {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;   
+}
+
+#next-btn {
+    border-radius: 10px;
+    background :linear-gradient(rgb(74, 74, 199), rgb(27, 27, 44))
+}
+
