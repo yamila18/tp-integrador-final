@@ -1,0 +1,268 @@
+.header {
+    background:#795548;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+.nav {
+    display: flex;
+}
+.header__ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.cabezera1, .cabezera2, .cabezera3, .cabezera4, .cabezera5 {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    margin: 1rem;
+    position: sticky;
+    list-style: none;
+    text-decoration: none;
+    top: 0px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.cabezera1:hover, .cabezera2:hover, .cabezera3:hover, .cabezera4:hover, .cabezera5:hover {
+    color: #FFFFFF;
+}
+.fbicon, .igicon, .caricon{
+    width: 20px;
+    height: 20px;
+    color: #212121;
+    color: #212121;
+    margin: 1rem;
+    position: sticky;
+    list-style: none;
+    text-decoration: none;
+    top: 0px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.titulo {
+    font-family:'adeliaregular';
+    background: #D7CCC8;
+    color:#212121;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 3rem; 
+    animation: vino 2s;
+}
+
+
+.carousel__img {
+    height: 90vh;
+    margin-bottom: 20px;
+}
+.descripcion__caras{
+    display: flex;
+    justify-content: space-evenly;
+}
+.descripcion__img{
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes vino{
+   0% {
+    background-color: #4f000b;
+    font-size: medium;
+
+   }
+   25% {
+    background-color: bisque;
+    
+   }
+   50% {
+    background-color:  whitesmoke;
+     
+   }
+   100% {
+    background-color: white;
+    
+   }
+   
+}
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    background: #D7CCC8;
+    color:#4f000b (18, 18, 19);
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+
+.textfont{
+    font-family:'Roboto', sans-serif;
+}
+.imgcontrol{
+    height: 50rem;
+    width: 100%;
+    
+}
+.formulario{   
+    background:#795548; 
+    padding: 2rem 0 .5rem;
+}
+.form__contacto{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+.form__tel{
+    height: 20.4rem;
+    width: 100%;
+}
+.form__input{
+    width: 35rem;
+}
+.form__btn {
+    width: 10rem;
+}
+
+#next-btn{
+    background: #BDBDBD;
+}
+
+#next-btn:hover{
+    color: #FFFFFF;
+}
+
+.footer{
+    background:#212121;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+    
+    
+}
+.footer__p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:#BDBDBD;
+    margin:5px;
+}
+
+.grupo7{
+    text-decoration: none;
+}
+
+
+.Logo {
+   width: 50px;
+   height: 50px;
+   position: relative;
+   right: 40px;
+   bottom: -3px;
+   border-radius: 50px;
+   transition: width 1s;
+}
+
+.Logo:hover {
+    width: 100px;
+    cursor: pointer;
+}
+
+.Lore {
+    background-image: url(images/mario-la-pergola-gLdILBiyqH8-unsplash.jpg);
+    background-repeat: repeat;
+    color: azure;
+    margin-bottom: 20px;
+}
+
+.loreh1 {
+    color:#1c1c1c(58, 53, 28);
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    animation: Loree 1s ease infinite;
+    text-align: center;     
+    background: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0px;
+}
+ @keyframes Loree {
+    0% {
+        font-family: fantasy;
+
+    }
+    25% {
+        font-family: sans-serif;
+    }
+    50% {
+        font-family: serif;
+        color: rgb(161, 87, 87);
+        
+    }
+    100% {
+        font-family: serif;
+        color: rgb(58, 53, 28);
+    }
+ }
+ .Vinooooo {
+    width: 100px;   
+ }
+ .holaa {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+ }
+.Loreee {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color:black (116, 69, 69);
+    background: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0px;
+}
+.Boton-Comprar {
+    color: black;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+.Boton-Comprar:hover {
+    background-color:#BDBDBD;
+    color: white;
+    
+}
+.Fotos {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;   
+}
+
+.titleG7{
+    background: #212121;
+    color:#BDBDBD;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.footer2P{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:#BDBDBD;
+    margin-top: 30px;
+    background:#212121;
+    display: flex;
+    padding: 4rem 0 0;
+}
+
